@@ -26,7 +26,7 @@ def load_data(filepath):
     return data
 
 # Load data
-data = load_data('./Dashboard/air_quality_clean.csv')
+data = load_data('./air_quality_clean.csv')
 
 
 # Sidebar filters for user selection
