@@ -4,7 +4,7 @@ This project provides an interactive dashboard for exploring air quality data. I
 
 ## Project Structure
 
-- `Streamlit_App.py`: The main application file that runs the Streamlit dashboard.
+- `Welcome.py`: The main application file that runs the Streamlit dashboard.
 - `requirements.txt`: Contains the Python dependencies required to run the project.
 - `Proyek_Analisis_Data.ipynb`: A Jupyter notebook for data analysis.
 - `air_quality_clean.csv`: The cleaned dataset used in the project.
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 Usage
 To run the Streamlit app, use the following command:
 ```sh
-streamlit run Streamlit_App.py
+streamlit run Welcome.py
 ```
 Data
 The data used in this project is air quality data, including PM2.5 and PM10 pollution levels.
